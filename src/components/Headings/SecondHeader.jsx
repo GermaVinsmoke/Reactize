@@ -12,8 +12,7 @@ class SecondHeader extends Component {
                 <div className="row">
                     <div className="col s12 m12">
                         <h3
-                            className="section"
-                            className="purple-text text-darken-4"
+                            className="section purple-text text-darken-4"
                             style={headingText}>
                             {secondHeader}
                         </h3>
