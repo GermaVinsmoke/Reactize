@@ -5,24 +5,24 @@ import JsxCode from '../code/JsxCode';
 import ThirdHeader from '../Headings/ThirdHeader';
 
 const RefAndDOM = ({ next }) => {
-    return (
-        <div>
-            <SecondHeader secondHeader="Ref and the DOM "
-                desc={`Refs provide a way to access DOM nodes or React elements created in the render method. 
+  return (
+    <div>
+      <SecondHeader secondHeader="Ref and the DOM "
+        desc={`Refs provide a way to access DOM nodes or React elements created in the render method. 
                 Ref can be used for integration with third pary DOM libraries.  
                 `}
-            />
-            <JsxCode jsxCode={
-                `<div
+      />
+      <JsxCode jsxCode={
+        `<div
     ref={Timepicker => {
         this.Timepicker = Timepicker;
     }}
     className="timepicker">
 </div>`
-            } />
+      } />
 
-            <ThirdHeader thirdHeader="Autocomplete.js" />
-            <JsxCode jsxCode={`import React, { Component } from "react";
+      <ThirdHeader thirdHeader="Timepicker.js" />
+      <JsxCode jsxCode={`import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import { connect } from "react-redux";
@@ -72,10 +72,10 @@ export default connect(
   { timeChanged }
 )(Picker);`} />
 
-            <Navigation align="left" link={`/timepicker`} where='Prev' />
-            <Navigation align="right" link={`/timepicker/${next}`} where='Next' />
-        </div>
-    )
+      <Navigation align="left" link={`/timepicker`} where='Prev' />
+      <Navigation align="right" link={`/timepicker/${next}`} where='Next' />
+    </div>
+  )
 }
 
 export default RefAndDOM;

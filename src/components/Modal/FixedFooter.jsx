@@ -164,7 +164,7 @@ export default Modal;
 
 `} />
 
-        <Navigation align="left" link={`/modal`} where='Prev' />
+        <Navigation align="left" link={`/modal/${this.props.prev}`} where='Prev' />
         <Navigation align="right" link={`/modal/${this.props.next}`} where='Next' />
       </div>
     )
