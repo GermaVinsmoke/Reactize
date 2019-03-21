@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import RefAndDOM from './RefAndDOM';
 import Store from './Store';
 import ActionReducer from './ActionReducer';

@@ -29,12 +29,12 @@ class Modal extends Component {
                     />
                 </div>
 
-                <a
-                    className="waves-effect waves-light btn modal-trigger"
+                <button
+                    className="waves-effect waves-light btn modal-trigger purple darken-4"
                     data-target="modal1"
                 >
                     Modal
-                </a>
+                </button>
 
                 <div
                     ref={Modal => {
@@ -48,14 +48,14 @@ class Modal extends Component {
                         <p>A bunch of text</p>
                     </div>
                     <div className="modal-footer">
-                        <a className="modal-close waves-effect waves-red btn-flat">
+                        <button className="modal-close waves-effect waves-red btn-flat">
                             Disagree
-                        </a>
-                        <a
+                        </button>
+                        <button
                             className="modal-close waves-effect waves-green btn-flat"
                         >
                             Agree
-                        </a>
+                        </button>
                     </div>
                 </div>
 
@@ -70,14 +70,21 @@ class Modal extends Component {
                 />
                 <ThirdHeader thirdHeader="Options and Methods" />
                 <p>For more info related to Options and Methods please check Materialize
-                <a target='_blank' href='https://materializecss.com/modals.html'>
+                <a
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        href='https://materializecss.com/modals.html'>
                         {` Modal `}
                     </a>docs</p>
                 <SecondHeader
                     secondHeader="CodeSandbox Demo"
                     desc="Play on this working Demo of Modal to get familiar with Reactize"
                 />
-                <a className="btn waves-effect waves-light purple darken-4" target="_blank" href="https://codesandbox.io/s/48w3kw6klw?fontsize=14">
+                <a
+                    className="btn waves-effect waves-light purple darken-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://codesandbox.io/s/48w3kw6klw?fontsize=14">
                     Edit on CodeSandbox<i className="material-icons right">edit</i>
                 </a>
                 <Navigation align='right' link={`${this.props.match.url}/ref_and_the_dom`} where='Next' />

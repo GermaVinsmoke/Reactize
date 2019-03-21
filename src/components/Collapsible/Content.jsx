@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import RefAndDOM from './RefAndDOM';
 import PreselectedSelection from './PreselectedSelection';
 import Accordion from './Accordion';

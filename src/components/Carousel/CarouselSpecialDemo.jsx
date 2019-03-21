@@ -19,7 +19,7 @@ class CarouselSpecialDemo extends Component {
                 className="carousel carousel-slider center"
             >
                 <div className="carousel-fixed-item center">
-                    <a className="btn waves-effect white grey-text darken-text-2">
+                    <a href="#!" className="btn waves-effect white grey-text darken-text-2">
                         button
                     </a>
                 </div>

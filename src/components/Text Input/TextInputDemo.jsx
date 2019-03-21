@@ -77,14 +77,21 @@ class TextInputDemo extends Component {
                 />
                 <ThirdHeader thirdHeader="Options and Methods" />
                 <p>For more info related to Options and Methods please check Materialize
-                <a target='_blank' href='https://materializecss.com/text-inputs.html'>
+                <a
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        href='https://materializecss.com/text-inputs.html'>
                         {` Text Inputs `}
                     </a>docs</p>
                 <SecondHeader
                     secondHeader="CodeSandbox Demo"
                     desc="Play on this working Demo of Text Input to get familiar with Reactize"
                 />
-                <a className="btn waves-effect waves-light purple darken-4" target="_blank" href="https://codesandbox.io/s/rlv58jor04?fontsize=14">
+                <a
+                    className="btn waves-effect waves-light purple darken-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://codesandbox.io/s/rlv58jor04?fontsize=14">
                     Edit on CodeSandbox<i className="material-icons right">edit</i>
                 </a>
                 <Navigation align='right' link={`${this.props.match.url}/counter`} where='Next' />

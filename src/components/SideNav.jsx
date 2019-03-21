@@ -28,7 +28,7 @@ class Sidenav extends Component {
         return (
             <div>
                 <nav className="purple darken-4">
-                    <a data-target="slide-out" className="sidenav-trigger">
+                    <a href="#!" data-target="slide-out" className="sidenav-trigger">
                         <i className="white-text material-icons">menu</i>
                     </a>
                     <Link to='/' className="brand-logo right" style={{ paddingRight: '5%' }}>Reactize</Link>

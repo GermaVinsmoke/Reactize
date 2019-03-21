@@ -40,7 +40,7 @@ class SliderDemo extends Component {
                 >
                     <ul className="slides">
                         <li>
-                            <img src={Image1} />
+                            <img src={Image1} alt="1" />
                             <div className="caption center-align">
                                 <h3>This is our big Tagline!</h3>
                                 <h5 className="light grey-text text-lighten-3">
@@ -49,7 +49,7 @@ class SliderDemo extends Component {
                             </div>
                         </li>
                         <li>
-                            <img src={Image2} />
+                            <img src={Image2} alt="2" />
                             <div className="caption left-align">
                                 <h3>Left Aligned Caption</h3>
                                 <h5 className="light grey-text text-lighten-3">
@@ -58,7 +58,7 @@ class SliderDemo extends Component {
                             </div>
                         </li>
                         <li>
-                            <img src={Image3} />
+                            <img src={Image3} alt="3" />
                             <div className="caption right-align">
                                 <h3>Right Aligned Caption</h3>
                                 <h5 className="light grey-text text-lighten-3">
@@ -67,7 +67,7 @@ class SliderDemo extends Component {
                             </div>
                         </li>
                         <li>
-                            <img src={Image4} />
+                            <img src={Image4} alt="4" />
                             <div className="caption center-align">
                                 <h3>This is our big Tagline!</h3>
                                 <h5 className="light grey-text text-lighten-3">
@@ -89,14 +89,21 @@ class SliderDemo extends Component {
                 />
                 <ThirdHeader thirdHeader="Options and Methods" />
                 <p>For more info related to Options and Methods please check Materialize
-                <a target='_blank' href='https://materializecss.com/media.html'>
+                <a
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        href='https://materializecss.com/media.html'>
                         {` Slider `}
                     </a>docs</p>
                 <SecondHeader
                     secondHeader="CodeSandbox Demo"
                     desc="Play on this working Demo Slider to get familiar with Reactize"
                 />
-                <a className="btn waves-effect waves-light purple darken-4" target="_blank" href="https://codesandbox.io/s/7348rjzn26?fontsize=14">
+                <a
+                    className="btn waves-effect waves-light purple darken-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://codesandbox.io/s/7348rjzn26?fontsize=14">
                     Edit on CodeSandbox<i className="material-icons right">edit</i>
                 </a>
                 <Navigation align='right' link={`${this.props.match.url}/ref_and_the_dom`} where='Next' />

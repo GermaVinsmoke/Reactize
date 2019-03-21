@@ -28,11 +28,11 @@ class Collapsible extends Component {
                     />
                 </div>
 
-                <a
+                <a href="#!"
                     ref={Dropdown => {
                         this.Dropdown = Dropdown;
                     }}
-                    className="dropdown-trigger btn waves-effect"
+                    className="dropdown-trigger btn waves-effect waves-light purple darken-4"
                     data-target="dropdown1"
                 >
                     Drop Me!
@@ -40,21 +40,21 @@ class Collapsible extends Component {
 
                 <ul id="dropdown1" className="dropdown-content">
                     <li>
-                        <a>one</a>
+                        <a href="#!">one</a>
                     </li>
                     <li>
-                        <a>two</a>
+                        <a href="#!">two</a>
                     </li>
                     <li>
-                        <a>three</a>
+                        <a href="#!">three</a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#!">
                             <i className="material-icons">view_module</i>four
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href="#!">
                             <i className="material-icons">cloud</i>five
                         </a>
                     </li>
@@ -71,14 +71,21 @@ class Collapsible extends Component {
                 />
                 <ThirdHeader thirdHeader="Options and Methods" />
                 <p>For more info related to Options and Methods please check Materialize
-                <a target='_blank' href='https://materializecss.com/dropdown.html'>
+                <a
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        href='https://materializecss.com/dropdown.html'>
                         {` Dropdown `}
                     </a>docs</p>
                 <SecondHeader
                     secondHeader="CodeSandbox Demo"
                     desc="Play on this working Demo of Carousel to get familiar with Reactize"
                 />
-                <a className="btn waves-effect waves-light purple darken-4" target="_blank" href="https://codesandbox.io/s/myno6mymyp?fontsize=14">
+                <a
+                    className="btn waves-effect waves-light purple darken-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://codesandbox.io/s/myno6mymyp?fontsize=14">
                     Edit on CodeSandbox<i className="material-icons right">edit</i>
                 </a>
                 <Navigation align='right' link={`${this.props.match.url}/ref_and_the_dom`} where='Next' />

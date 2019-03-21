@@ -23,7 +23,7 @@ class DatepickerDemo extends Component {
                 console.log(context.props.date);
             }
         };
-        const dateElement = M.Datepicker.init(this.Datepicker, datePickerOptions);
+        M.Datepicker.init(this.Datepicker, datePickerOptions);
 
         // let instance = M.Datepicker.getInstance(this.Datepicker);
         // instance.setDate(new Date(2018, 2, 3));
@@ -62,14 +62,21 @@ class DatepickerDemo extends Component {
                 />
                 <ThirdHeader thirdHeader="Options and Methods" />
                 <p>For more info related to Options and Methods please check Materialize
-                <a target='_blank' href='https://materializecss.com/pickers.html'>
+                <a
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        href='https://materializecss.com/pickers.html'>
                         {` Datepicker `}
                     </a>docs</p>
                 <SecondHeader
                     secondHeader="CodeSandbox Demo"
                     desc="Play on this working Demo of Datepicker to get familiar with Reactize"
                 />
-                <a className="btn waves-effect waves-light purple darken-4" target="_blank" href="https://codesandbox.io/s/8lq33j9zyj?fontsize=14">
+                <a
+                    className="btn waves-effect waves-light purple darken-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://codesandbox.io/s/8lq33j9zyj?fontsize=14">
                     Edit on CodeSandbox<i className="material-icons right">edit</i>
                 </a>
                 <Navigation align='right' link={`${this.props.match.url}/ref_and_the_dom`} where='Next' />

@@ -35,7 +35,7 @@ class Tooltips extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col m6 s6">
-                            <a
+                            <button
                                 ref={Tooltip => {
                                     this.Tooltip1 = Tooltip;
                                 }}
@@ -44,10 +44,10 @@ class Tooltips extends Component {
                                 data-tooltip="I am a tooltip"
                             >
                                 Bottom
-                        </a>
+                        </button>
                         </div>
                         <div className="col m6 s6">
-                            <a
+                            <button
                                 ref={Tooltip => {
                                     this.Tooltip2 = Tooltip;
                                 }}
@@ -56,12 +56,12 @@ class Tooltips extends Component {
                                 data-tooltip="I am a tooltip"
                             >
                                 Top
-                        </a>
+                        </button>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col m6 s6">
-                            <a
+                            <button
                                 ref={Tooltip => {
                                     this.Tooltip3 = Tooltip;
                                 }}
@@ -70,10 +70,10 @@ class Tooltips extends Component {
                                 data-tooltip="I am a tooltip"
                             >
                                 Right
-                        </a>
+                        </button>
                         </div>
                         <div className="col m6 s6">
-                            <a
+                            <button
                                 ref={Tooltip => {
                                     this.Tooltip4 = Tooltip;
                                 }}
@@ -82,7 +82,7 @@ class Tooltips extends Component {
                                 data-tooltip="I am a tooltip"
                             >
                                 Left
-                        </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -98,14 +98,21 @@ class Tooltips extends Component {
                 />
                 <ThirdHeader thirdHeader="Options and Methods" />
                 <p>For more info related to Options and Methods please check Materialize
-                <a target='_blank' href='https://materializecss.com/tooltips.html'>
+                <a
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        href='https://materializecss.com/tooltips.html'>
                         {` Tooltips `}
                     </a>docs</p>
                 <SecondHeader
                     secondHeader="CodeSandbox Demo"
                     desc="Play on this working Demo of Tooltips to get familiar with Reactize"
                 />
-                <a className="btn waves-effect waves-light purple darken-4" target="_blank" href="https://codesandbox.io/s/30vywz9xpm?fontsize=14">
+                <a
+                    className="btn waves-effect waves-light purple darken-4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://codesandbox.io/s/30vywz9xpm?fontsize=14">
                     Edit on CodeSandbox<i className="material-icons right">edit</i>
                 </a>
                 <Navigation align='right' link={`${this.props.match.url}/ref_and_the_dom`} where='Next' />
