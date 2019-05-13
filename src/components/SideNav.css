@@ -1,0 +1,18 @@
+@media (min-width: 992px){
+  .sidenavOne {
+    overflow-y: hidden !important;
+  }
+  
+  .sidenavOne:hover {
+    overflow-y: auto !important;
+  }
+  .sidenav{
+    width: 250px !important;
+  }
+}
+
+@media (max-width: 992px){
+  .sidenav{
+    width: 200px !important;
+  }
+}
