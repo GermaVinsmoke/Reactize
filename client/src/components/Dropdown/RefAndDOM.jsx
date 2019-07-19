@@ -55,7 +55,8 @@ ReactDOM.render(<App />, rootElement);
 
       <ThirdHeader thirdHeader="Dropdown.js" />
       <JsxCode jsxCode={`import React, { Component } from "react";
-import M from "materiDropdown
+import M from "materialize-css";
+import "materialize-css/dist/css/materialize.min.css";
 
 class Dropdown extends Component {
   componentDidMount() {
