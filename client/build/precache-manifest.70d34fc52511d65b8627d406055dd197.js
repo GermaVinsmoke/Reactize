@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/4.25303182.jpg"
   },
   {
-    "revision": "f087bd25c6bcc04082d9",
+    "revision": "26f8c8aae77c020d419f",
     "url": "/static/css/main.94d9cbb0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/vBxq-parallax2.63cd0bb2.jpg"
   },
   {
-    "revision": "0551e9626f452bf7c1a8",
-    "url": "/static/js/2.0551e962.chunk.js"
+    "revision": "b5f04fa9db289007e67e",
+    "url": "/static/js/2.b5f04fa9.chunk.js"
   },
   {
     "revision": "9a4e142193ce9699d00d1a590f759ca8",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/3.251eeec1.jpg"
   },
   {
-    "revision": "f087bd25c6bcc04082d9",
-    "url": "/static/js/main.f087bd25.chunk.js"
+    "revision": "26f8c8aae77c020d419f",
+    "url": "/static/js/main.26f8c8aa.chunk.js"
   },
   {
     "revision": "c6723b2047af8e426f8bee2ac7fe450f",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/static/media/3jvM-beach-clouds-dream-60217.25f22422.jpg"
   },
   {
-    "revision": "0551e9626f452bf7c1a8",
+    "revision": "b5f04fa9db289007e67e",
     "url": "/static/css/2.ba86afee.chunk.css"
   },
   {
-    "revision": "43887b3f6cb2b9e1c4c8dade58384367",
+    "revision": "c0c22fda51267b0ef92b3486cf2e487d",
     "url": "/index.html"
   }
 ];
