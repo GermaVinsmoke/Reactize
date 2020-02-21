@@ -27,26 +27,6 @@ const Datepicker = lazy(() => import('../components/Datepicker/Datepicker'));
 const Timepicker = lazy(() => import('../components/Timepicker/Timepicker'));
 const Chips = lazy(() => import('../components/Chips/Chips'));
 
-// import GettingStarted from './GettingStarted';
-// import AutoComplete from '../components/Autocomplete/Autocomplete.jsx';
-// import Carousel from '../components/Carousel/Carousel.jsx';
-// import Collapsible from '../components/Collapsible/Collapsible';
-// import Dropdown from '../components/Dropdown/Dropdown';
-// import MaterialBox from '../components//Material Box/MaterialBox';
-// import Slider from '../components/Slider/Slider';
-// import Modal from '../components/Modal/Modal';
-// import Parallax from '../components/Parallax/Parallax';
-// import Tooltips from '../components/Tooltips/Tooltips';
-// import Toasts from '../components/Toasts/Toasts';
-// import Tabs from '../components/Tabs/Tabs';
-// import Sidenav from '../components/Sidenav/Sidenav';
-// import Scrollspy from '../components/Scrollspy/Scrollspy';
-// import TextInput from '../components/Text Input/TextInput';
-// import Select from '../components/Select/Select';
-// import Datepicker from '../components/Datepicker/Datepicker';
-// import Timepicker from '../components/Timepicker/Timepicker';
-// import Chips from '../components/Chips/Chips';
-
 const Main = () => {
 	return (
 		<Suspense fallback={<Loading />}>
