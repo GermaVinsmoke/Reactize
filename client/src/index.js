@@ -1,18 +1,30 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import App from '../src/components/App.jsx';
-import { Provider } from "react-redux";
-import { createStore, applyMiddleware } from "redux";
-import logger from "redux-logger";
-import reducer from "../src/reducers";
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import logger from 'redux-logger';
+import reducer from '../src/reducers';
 import registerServiceWorker from './registerServiceWorker';
 
 const store = createStore(reducer, {}, applyMiddleware(logger));
 
+const rootElement = document.getElementById('root');
 
-ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>
-    , document.getElementById('root'));
+if (rootElement.hasChildNodes()) {
+	hydrate(
+		<Provider store={store}>
+			<App />
+		</Provider>,
+		rootElement
+	);
+} else {
+	render(
+		<Provider store={store}>
+			<App />
+		</Provider>,
+		rootElement
+	);
+}
+
 registerServiceWorker();
