@@ -1,18 +1,31 @@
 @media (min-width: 992px) {
-	.sidenavOne {
-		overflow-y: hidden !important;
-	}
+  .sidenavOne {
+    overflow-y: hidden !important;
+  }
 
-	.sidenavOne:hover {
-		overflow-y: auto !important;
-	}
-	.sidenav {
-		width: 250px !important;
-	}
+  .sidenavOne:hover {
+    overflow-y: auto !important;
+  }
+  .sidenav {
+    width: 250px !important;
+  }
 }
 
 @media (max-width: 992px) {
-	.sidenav {
-		width: 200px !important;
-	}
+  .sidenav {
+    width: 200px !important;
+  }
+}
+
+.buymecoffee-style {
+  margin: 0px;
+  border: 0px none;
+  height: 400px;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  background: rgb(255, 255, 255)
+    url('https://marketplace.kony.com/static/dist/images/loader.svg') no-repeat
+    scroll center center / 64px;
+  transition: all 0.4s ease 0s;
 }
